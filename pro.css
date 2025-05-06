@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.logo{
+    height: 140px;
+    width:265px;
+
+}
+.container-fluid{
+    background-color: white;
+}
+
+.btn{
+    margin-right: 100px;
+    height: 49px;
+    width: 276px;
+    border-radius: 0%;
+   
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    border-radius: 0px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  
+  .img_2 img {
+    max-width: 550px;
+    max-height:336px;
+    padding-left: 10px;
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-right: 10px;
+    
+  }
+
+.red{
+    color: #f40000;
+}
+.btn-head{
+    color:#fff !important;
+    background-color: #f40000 !important;
+
+}
+.section2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.second_btn{
+    
+}

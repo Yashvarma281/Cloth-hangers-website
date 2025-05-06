@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="plasticcloth.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>title</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        #breadcrumb {
+            background-color: black;
+            width: 100%;
+            height: 300px;
+        }
+    
+        #main {
+            background-color: #f4f0ef;
+            padding: 50px 30px;
+        }
+    
+        .carousel-control-prev,
+        .carousel-control-next {
+            color: #000;
+        }
+        .content-box{
+            padding: 40px;
+        }
+        .image-box{
+            width: 500px;
+            height: 400px;
+        }
+        .content-box h2{
+            font-size: 35px;
+            color: #f40000;
+            font-weight: 600px;
+        }
+        .second_btn {
+        height: 45px;
+        width: 145px;
+        background-color: #6f6f6f;
+        color: white;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-top: 48px;
+    }
+    .second_btn:hover{
+        background-color: #f40000;
+    }
+
+        @media(max-width:768px){
+            #main {
+            /* background-color: #f4f0ef; */
+            padding: 0px;
+        }
+        .image-box{
+            /* width: 350px; */
+            width: 100%;
+            /* height: 400px; */
+            padding-top: 50px;
+        }
+        .content-box{
+            padding: 0 !important;
+        }
+        .maincontainer-head{
+            padding:30px;
+        }
+        .cool-head{
+        padding:15px;
+    }
+    .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path stroke="black" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>');
+}
+
+
+        }
+        
+    </style>
+        
+    
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+
+                <a class="yuv" href="index.html">
+                    <img class="logo" src="LOGO.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link active nav-head" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-head" href="about.html">ABOUT US</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle nav-head" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PRODUCTS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item nav-head" href="plasticcloth.html">PLASTIC CLOTH HANGER</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item nav-head" href="roundhanger.html">PLASTIC ROUND HANGER</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item nav-head" href="cliphanger.html">CLIP HANGER</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item nav-head" href="saree.html">SAREE HANGER</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item nav-head" href="coat.html">COAT & BLAZER HANGER</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item nav-head" href="ALUMINIUM.html">ALUMINUM HANGER</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item nav-head" href="wooden.html">WOODEN HANGER</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item nav-head" href="clip.html">CLOTH CLIPS</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item nav-head" href="spring.html">CURTAIN SPRING</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled nav-head" href="contact.html">CONTACT US</a>
+                        </li>
+                    </ul>
+
+                    <button type="button" class="btn btn-head fs-5">DOWNLOAD BROCHURE</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="contact">
+        <div class="overlay">
+            <div class="yash_varma text-center ">
+                <h1>PLASTIC CLOTH HANGER</h1>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- <section id="pages">
+
+        <div class="container">
+            <div class="row row222-head">
+                <div class="col-lg-6  ">
+
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel  ">
+                        <div class="carousel-inner carouselin-head">
+                            <div class="carousel-item active">
+                                <img src="18.png" class="d-block w-100" alt="1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="19.png" class="d-block w-100" alt="2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="20.png" class="d-block w-100" alt="3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="21.png" class="d-block w-100" alt="4">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="22.png" class="d-block w-100" alt="5">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="23.png" class="d-block w-100" alt="5">
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                        </button>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+
+                    <p class="red">Sofia Plastic</p>
+                    <h1 class="heading1">PLASTIC CLOTH HANGER</h1>
+                    <p class="pragraph1 fs-5">Experience the perfect blend of durability and elegance with Sofia
+                        Plastic’s premium plastic hangers. Meticulously crafted, our hangers boast a sleek design
+                        that effortlessly enhances any closet space. Constructed from top-grade materials, they
+                        offer steadfast support for all your apparel, from delicate fabrics to heavy coats. Bid
+                        farewell to flimsy hangers; Sofia Plastic ensures longevity and reliability. Elevate your
+                        wardrobe organization with our resilient hangers, meticulously designed to preserve the
+                        pristine condition of your garments. Trust Sofia Plastic to redefine your closet experience,
+                        offering superior quality that stands the test of time.</p>
+                    <button class="second_btn">GET MORE INFO</button>
+
+                </div>
+
+            </div>
+        </div>
+        
+    </section> -->
+
+    <section id="main">
+        <div class="container maincontainer-head">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 ">
+                    <div class="image-box">
+                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner carousel_in-head">
+                                <div class="carousel-item active carouselitem-head">
+                                    <img src="23.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="18.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="19.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="20.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="21.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="22.png" class="d-block w-100" alt="...">
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev  controlicon-head" type="button"
+                                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 ">
+                    <div class="content-box">
+                        <p>Sofia Plastic</p>
+                        <h2>PLASTIC CLOTH HANGER</h2>
+                        <hr>
+                        <p>Experience the perfect blend of durability and elegance with Sofia Plastic’s premium plastic
+                            hangers. Meticulously crafted, our hangers boast a sleek design that effortlessly enhances
+                            any closet space. Constructed from top-grade materials, they offer steadfast support for all
+                            your apparel, from delicate fabrics to heavy coats. Bid farewell to flimsy hangers; Sofia
+                            Plastic ensures longevity and reliability. Elevate your wardrobe organization with our
+                            resilient hangers, meticulously designed to preserve the pristine condition of your
+                            garments. Trust Sofia Plastic to redefine your closet experience, offering superior quality
+                            that stands the test of time.</p>
+                            <button class="second_btn">GET MORE INFO</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-dark text-light pt-5 cool-head">
+        <div class="container px-1">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 col-12">
+                    <h4>Reach Us</h4>
+                    <div class="line"></div>
+                    <ul class="list-unstyled pt-3 ">
+                        <li><i class="bi bi-geo-alt-fill bi-head"></i>51, Canning Street West Bengal Kolkata 700001
+                            India</li>
+                        <li><i class="bi bi-telephone-fill bi-head"></i>03322218043</li>
+                        <li><i class="bi bi-envelope bi-head"></i>sofiaplastic01@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-lg-3 col-12">
+                    <h4>Quick Links</h4>
+                    <div class="line"></div>
+                    <ul class="list-unstyled pt-3 ">
+                        <li class="py-1 py-head"><a href="#"><i class="bi bi-arrow-right px-1"></i>About Us</a></li>
+                        <li class="py-1"><a href="#"><i class="bi bi-arrow-right px-1"></i>
+                                Products</a></li>
+                        <li class="py-1"><a href="#"><i class="bi bi-arrow-right px-1"></i>Contact Us</a></li>
+
+
+
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-lg-3 col-12">
+                    <h4>Products</h4>
+                    <div class="line"></div>
+                    <ul class="list-unstyled pt-3  ">
+                        <li class="py-1 "><a href="#"><i class="bi bi-arrow-right px-1"></i>Clip Hangers</a></li>
+                        <li class="py-1 "><a href="#"><i class="bi bi-arrow-right px-1"></i>Plastic Cloth Hanger</a>
+                        </li>
+                        <li class="py-1 "><a href="#"><i class="bi bi-arrow-right px-1"></i>Plastic Round Hanger</a>
+                        </li>
+                        <li class="py-1 "><a href="#"><i class="bi bi-arrow-right px-1"></i>
+                                Saree Hangers</a></li>
+                        <li class="py-1 "><a href="#"><i class="bi bi-arrow-right px-1"></i>
+                                Coat & Blazer Hanger</a></li>
+                        <li class="py-1 "><a href="#"><i class="bi bi-arrow-right px-1"></i>ALuminium Hangers</a></li>
+                        <li class="py-1 "><a href="#"><i class="bi bi-arrow-right px-1"></i>
+                                Wooden Hanger</a></li>
+                        <li class="py-1 "><a href="#"><i class="bi bi-arrow-right px-1"></i>Cloth Hangers</a></li>
+                        <li class="py-1 "><a href="#"><i class="bi bi-arrow-right px-1"></i>Curtain Spring</a></li>
+
+                </div>
+                <div class="col-md-3 col-lg-3 col-12">
+                    <h4>Social Links</h4>
+                    <div class="line"></div>
+
+                    <div class="social-media pt-2">
+                        <a href="#" class="text-light fs-3 me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-light fs-3 me-3"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-light fs-3 me-3"><i class="bi bi-youtube"></i></a>
+
+                    </div>
+                    <div class="footer_img">
+                        <img src="1-2.png" width="65px">
+                        <img src="4-2.png" width="65px">
+                        <img src="2-2.png" width="65px">
+                        <img src="3-2.png" width="65px">
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col text-center">
+                <p> Copyright © 2024 Sofia Plastic | Powered by Sofia Plastic</p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!-- slider section-->

@@ -1,0 +1,570 @@
+
+        .nav-item .nav-link {
+            font-size: 17px !important;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            width: 100%;
+            overflow-x: hidden; /* Prevents horizontal scroll */
+        }
+ 
+.op-head{
+    padding:50px;
+}
+/* Gallery Title */
+.gallery-title {
+    font-size: 42px;
+    font-weight: 600;
+    margin: 40px;
+    text-align: center;
+}
+
+/* Gallery Grid */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
+    gap: 30px;
+    column-gap: 15px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+/* Image Styling */
+.gallery-item img {
+    width: 357px;
+    height: 339px;
+   
+    transition: transform 0.3s ease-out;
+}
+
+/* Hover Effect */
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+
+        
+
+        .btn-head {
+            background-color: #f40000;
+            color: #fff;
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .btn {
+
+            height: 49px;
+            width: 276px;
+            border-radius: 0%;
+            font-size: 19px;
+
+        }
+
+
+        .logo {
+            height: 110px;
+            width: 250px;
+        }
+
+        .nav-head {
+            font-size: 17px;
+            color: black;
+
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+
+
+
+
+
+        .text {
+            font-size: 20px;
+            padding-right: 10px;
+
+        }
+
+
+
+        .section3 {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .second_btn {
+            height: 45px;
+            width: 145px;
+            background-color: #6f6f6f;
+            color: white;
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-top: 48px;
+        }
+
+        .red {
+            color: #f40000;
+        }
+
+        .heading1 {
+            font-size: 32px;
+            color: black;
+        }
+        .row-head{
+            padding:50px;
+        }
+
+
+
+        .pragraph1 {
+            font-size: 20px;
+            text-align: justify;
+
+
+            padding-right: 10px;
+        }
+
+        .img_galary {
+            width: 80%;
+            margin: 100px auto 50px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+            row-gap: 30px;
+            column-gap: 20px;
+
+        }
+
+        
+
+        .content_flex {
+            background-image: url(back.jpg);
+        }
+
+        .white_para {
+            color: white;
+        }
+
+        .yash {
+            background-color: #f8f3f0;
+        }
+
+        #contact {
+            background-image: url(hangers-wooden-closet-scaled.jpg);
+            /* background: rgba(0, 0, 0, 0.5), url('hangers-wooden-closet-scaled.jpg'); */
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 50vh;
+            background-size: cover;
+            /* background-color: #212020; */
+            place-content: center;
+            text-align: center;
+
+        }
+
+
+        .pp{
+            padding:30px;
+            
+        }
+        .yash_varma p,
+        h1 {
+            color: white;
+        }
+        .yash_varma{
+            text-align: center;
+            padding: 50px;
+        }
+        .line{
+            background-color: #f40000 ;
+            width: 50px;
+            height:2px;
+        }
+        
+        .bi-head{
+            color:#f40000;
+            padding-right: 5px;
+        }
+       ul a{
+        color:white;
+       }
+       ul a:hover{
+        color: #f40000;
+       }
+        
+
+        
+       <style>
+       .nav-item .nav-link {
+           font-size: 17px !important;
+       }
+
+       .btn-head {
+           background-color: #f40000 !important;
+           color: #fff !important;
+           font-size: 20px;
+           font-weight: 600;
+           text-transform: uppercase;
+       }
+
+       .btn {
+
+           height: 49px;
+           width: 276px;
+           border-radius: 0%;
+           font-size: 19px;
+
+       }
+
+
+       .logo {
+           height: 110px;
+           width: 250px;
+       }
+
+       .nav-head {
+           font-size: 17px;
+           color: black !important;
+
+       }
+      
+
+       .container {
+           display: flex;
+           align-items: center;
+           justify-content: center
+       }
+
+
+
+
+
+       .text {
+           font-size: 20px;
+           padding-right: 10px;
+
+       }
+
+
+
+       .section3 {
+           margin-top: 50px;
+           margin-bottom: 50px;
+       }
+
+       .second_btn {
+           height: 45px;
+           width: 145px;
+           background-color: #6f6f6f;
+           color: white;
+           font-size: 16px;
+           text-transform: uppercase;
+           margin-top: 48px;
+       }
+
+       .red {
+           color: #f40000;
+       }
+
+       .heading1 {
+           font-size: 32px;
+           color: #33333;
+       }
+
+       .pragraph1 {
+           font-size: 18px;
+           text-align: justify;
+
+
+           padding-right: 10px;
+       }
+
+       .img_galary {
+           width: 80%;
+           margin: 100px auto 50px;
+           display: grid;
+           grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+           row-gap: 30px;
+           column-gap: 20px;
+           
+
+       }
+
+      
+
+       .content_flex {
+           background-image: url(back.jpg);
+       }
+
+       .white_para {
+           color: white;
+       }
+
+       .yash {
+           background-color: #f8f3f0;
+       }
+
+       #contact {
+           background-image: url(hangers-wooden-closet-scaled.jpg);
+           /* background: rgba(0, 0, 0, 0.5), url('hangers-wooden-closet-scaled.jpg'); */
+           background-position: center;
+           background-repeat: no-repeat;
+           width: 100%;
+           height: 50vh;
+           background-size: cover;
+           /* background-color: #212020; */
+           place-content: center;
+           text-align: center;
+
+       }
+
+
+
+       .yash_varma p,
+       h1 {
+           color: white;
+       }
+       .line{
+           background-color: #f40000 ;
+           width: 50px;
+           height:2px;
+       }
+       .bi-head{
+           color:#f40000;
+           padding-right: 5px;
+       }
+      ul a{
+       color:white;
+      }
+      ul a:hover{
+       color: #f40000;
+      }
+       
+
+       .footer_img{
+        display: flex;
+        flex-direction:row;
+
+       }
+       .footer_img{
+        padding-top: 10px;
+       }
+       .footer_img img{
+        padding-right: 5px;
+        border-radius: 7px;
+       }
+       .elementor-slide-heading h1{
+        color: black;
+
+        
+    }
+    .yash22{
+        background-image: url(back.jpg);
+       
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .p-head{
+        font-size: 18px;
+        font-weight: 500;
+        
+    }
+    #carouselExampleControls{
+        width: 480px;
+        height: 460px;
+        margin-left: 60px;
+        
+    }
+
+     
+        
+
+     
+
+
+
+     
+
+    @media screen and (max-width: 1200px){
+
+    html,body{
+        width:100%;
+        height: 100%;
+        margin:0px;
+        padding: 0px;
+        overflow-x: hidden;
+
+    }
+    .cool-head{
+        padding:15px;
+    }
+
+    .second_btn{
+        margin-bottom: 30px;
+    }
+    #about{
+        padding:10px;
+
+
+    }
+    .row-head{
+        padding:10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+    .img_galary{
+        margin:0px;
+        padding: 0px;
+        
+        
+   
+    }
+    .sli-head{
+        margin:50px;
+    }
+    .pp1-head{
+        padding:10px;
+    
+    }
+    .btn1-head{
+        width:360px;
+    }
+    #carouselExampleControls{
+        width: 310px;
+        height: 290px;
+        margin:0px;
+        
+    }
+  
+        
+
+
+    
+    
+
+}
+.rr-head{
+    padding:50px;
+}
+    
+#shaping{
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+}
+.bg-image{
+    background-image: url(section3.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 40px 0;    /* height: 80vh; */
+}
+#shaping .box{
+    width: 90%;
+    height: 340px;
+    background-color: #fff;
+    margin-top: 90px;
+    margin-left: -80px;
+    padding:  50px;
+    margin-bottom: 70px;
+
+}
+.shape-box{
+    height: 90vh;
+}
+.subtitle{
+    color: #b4a599;
+}
+
+.bg-mob{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-image: url('section3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.bg-mob .mob-box{
+    position: absolute;
+    height: 300px;
+    overflow: hidden;
+    background-color: #fff;
+    top: 30%;
+    padding: 20px;
+}
+.btn1-head{
+    width: 137px;
+}
+
+.pp1-head{
+    padding:50px;
+
+}
+@media (max-width:768px){
+    /* #shaping .box{
+        width: 100%;
+        height: 340px;
+        background-color: #fff;
+        
+        padding:  50px;
+        margin: 10px 15px;
+
+    } */
+    .shape-box{
+        display: none !important;
+    
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path stroke="black" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>');
+}
+.gallery-item img {
+    width: 90px;
+    height: 90px;
+   
+    transition: transform 0.3s ease-out;
+}
+
+/* Hover Effect */
+.gallery-item img:hover {
+    transform: scale(1.05);
+  
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(95px, 3fr));
+   
+   
+    max-width: 768px;
+   
+    margin-bottom: 100px;
+}
+.pp1-head{
+    padding:10px;
+    padding-bottom: 50px;
+
+}
+.op-head{
+    padding-right:10px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.btn-head {
+    transition: none;
+    display: none;
+}
+}
+
